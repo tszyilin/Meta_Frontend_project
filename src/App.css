@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,64 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+element {
+  --primary-color-1: #495E57;
+  --primary-color-2: #F4CE14;
+
+  --secondory-color-1: #EE9972;
+  --secondory-color-2: #FBDABB;
+  --secondory-color-3: #EDEFEE;
+  --secondory-color-4: #333333;
+
+  --title: 64pt;
+  --sub-title: 40pt;
+
+
+  --content-size: 18pt;
+
+
+}
+
+img {
+  height: 100px;
+  width: 300px;
+}
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+  /* background-color: red; */
+
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: yellowgreen; */
+  width: 90%;
+  list-style-type: none;
+  text-decoration: none;
+
+
+}
+
+a {
+  text-decoration: none;
 }
